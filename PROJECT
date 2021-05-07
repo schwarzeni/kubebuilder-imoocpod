@@ -1,0 +1,16 @@
+domain: schwarzeni.github.com
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-imoocpod
+repo: github.com/schwarzeni/kubebuilder-imoocpod
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: schwarzeni.github.com
+  group: batch
+  kind: ImoocPod
+  path: github.com/schwarzeni/kubebuilder-imoocpod/api/v1alpha1
+  version: v1alpha1
+version: "3"
